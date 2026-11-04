@@ -33,6 +33,8 @@ class Bseoa < Formula
 
       To use it from Claude Code:
         claude mcp add bseoa -- bseoa mcp
+
+      On Linux the binary needs glibc 2.39 or newer (Ubuntu 24.04, Debian 13 or later).
     EOS
   end
 

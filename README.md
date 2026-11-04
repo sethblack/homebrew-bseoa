@@ -8,3 +8,5 @@ bseoa --version
 ```
 
 The formula installs the signed binaries from each [release](https://github.com/sethblack/black-seo-analyzer/releases) and is updated by the release pipeline. A license key is required to crawl; start a free 14-day trial at <https://www.blackseoanalyzer.com/free-trial>.
+
+On Linux the binary needs glibc 2.39 or newer (Ubuntu 24.04, Debian 13 or later).
