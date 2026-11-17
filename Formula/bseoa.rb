@@ -1,7 +1,7 @@
 class Bseoa < Formula
   desc "Technical SEO crawler and site audit tool, with an MCP server for Claude and ChatGPT"
   homepage "https://www.blackseoanalyzer.com"
-  version "26.11.9"
+  version "26.11.18"
   license :cannot_represent
 
   livecheck do
@@ -10,13 +10,13 @@ class Bseoa < Formula
   end
 
   on_macos do
-    url "https://github.com/sethblack/black-seo-analyzer/releases/download/v26.11.9/bseoa-macos-universal"
+    url "https://github.com/sethblack/black-seo-analyzer/releases/download/v26.11.18/bseoa-macos-universal"
     sha256 "25d7ad91d77f43b56d08c9ddd0c609e1ac0661eaefe4261e307ea6df564d0396"
   end
 
   on_linux do
-    url "https://github.com/sethblack/black-seo-analyzer/releases/download/v26.11.9/bseoa-linux-x64"
-    sha256 "4df55926da19a0a7d54f09571384565712f917a0fb2e32e7a191e692427eb097"
+    url "https://github.com/sethblack/black-seo-analyzer/releases/download/v26.11.18/bseoa-linux-x64"
+    sha256 "827177fdd1475daf6dfd7876ead7fd717d9a7c70a3cb32a16cb633d6a2b0450e"
   end
 
   def install
